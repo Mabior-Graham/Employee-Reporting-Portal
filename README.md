@@ -1,14 +1,22 @@
 ### step 1
 run
-```git clone --branch master https://github.com/Mabior-Graham/Employee-Reporting-Portal.git```
+```
+git clone --branch master https://github.com/Mabior-Graham/Employee-Reporting-Portal.git
+
+```
 
 ### step 2
 run
-```cd Employee-Reporting-Portal```
+```
+cd Employee-Reporting-Portal
+```
 
 ### step 3
 run
-```npm install```
+```
+npm install
+
+```
 
 ### step 4
 replace ```mongodb://localhost:27017/ers``` in .env file with your connection string from mongodb compass
@@ -20,13 +28,19 @@ MONGO_URI=mongodb://localhost:27017/ers
 ### step 5
 seed the database with users
 run
-```node src/seeders/userSeeder.mjs```
+```
+node src/seeders/userSeeder.mjs
+
+```
 
 
 ### step 6
 seed the database with departments
 run 
-```node src/seeders/departmentSeeder.mjs```
+```
+node src/seeders/departmentSeeder.mjs
+
+```
 
 ### Accounts
 
@@ -46,7 +60,10 @@ password: password
 ### step 7
 start the development server
 run 
-```npm run dev```
+```
+npm run dev
+
+```
 
 ### step 8
 
