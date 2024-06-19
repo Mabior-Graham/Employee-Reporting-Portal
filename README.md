@@ -49,6 +49,6 @@ run
 ```npm run dev```
 
 ### step 8
-start the development server
+
 open your browser and go to
 http://localhost:3000/
