@@ -1,18 +1,18 @@
 ### step 1
-run
+Clone repo ```run```
 ```
 git clone --branch master https://github.com/Mabior-Graham/Employee-Reporting-Portal.git
 
 ```
 
 ### step 2
-run
+```run```
 ```
 cd Employee-Reporting-Portal
 ```
 
 ### step 3
-run
+Install dependences ```run```
 ```
 npm install
 
@@ -26,8 +26,7 @@ MONGO_URI=mongodb://localhost:27017/ers
 ```
 
 ### step 5
-seed the database with users
-run
+seed the database with users ```run```
 ```
 node src/seeders/userSeeder.mjs
 
@@ -35,8 +34,7 @@ node src/seeders/userSeeder.mjs
 
 
 ### step 6
-seed the database with departments
-run 
+seed the database with departments ```run``` 
 ```
 node src/seeders/departmentSeeder.mjs
 
@@ -58,8 +56,7 @@ password: password
 ```
 
 ### step 7
-start the development server
-run 
+start the development server ```run```
 ```
 npm run dev
 
@@ -68,4 +65,4 @@ npm run dev
 ### step 8
 
 open your browser and go to
-http://localhost:3000/
+```http://localhost:3000/```
