@@ -11,19 +11,20 @@ run
 ```npm install```
 
 ### step 4
-replace mongodb://localhost:27017/ers in .env file with your connection string from mongodb compass
+replace ```mongodb://localhost:27017/ers``` in .env file with your connection string from mongodb compass
 ```
 MONGO_URI=mongodb://localhost:27017/ers
 
 ```
 
 ### step 5
+seed the database with users
 run
 ```node src/seeders/userSeeder.mjs```
 
 
 ### step 6
-seed the database
+seed the database with departments
 run 
 ```node src/seeders/departmentSeeder.mjs```
 
